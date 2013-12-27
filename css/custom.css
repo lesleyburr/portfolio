@@ -17,12 +17,19 @@ a {
 }
 
 article {
-	margin-bottom: 3em;
+	margin-bottom: 2.5em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.links {
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 button {
 	font-size: 1em;
-	width: 200px;
+	width: 285px;
 	background-color: #b163a3;
 	box-shadow: 0 3px 2px -2px rgba(0,0,0,0.4);
 	border-color: transparent;
@@ -46,15 +53,17 @@ h1 {
 	font-size: 7em;
 	font-family: "Lavanderia";
 	font-weight: 900;
-	margin-top: 15%;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 h3 {
 	font-size: 2.7em;
 	font-family: "Quaver Serif";
 	margin-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 @font-face {
