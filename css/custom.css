@@ -1,6 +1,5 @@
 body {
 	background: #fff;
-	border: 0.9rem solid #d3f62a;
 }
 
 em {
@@ -9,25 +8,47 @@ em {
 
 p {
 	color: #000;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	font-family: "Quaver Serif";
 }
 
 a {
-	color: #d3f62a;
+	color: #fff;
 }
 
-.button.small {
-	font-family: "Quaver Serif";
+article {
+	margin-bottom: 3em;
+}
+
+button {
 	font-size: 1em;
-	padding-top: 0.9375rem;
+	width: 200px;
+	background-color: #b163a3;
+	box-shadow: 0 3px 2px -2px rgba(0,0,0,0.4);
+	border-color: transparent;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+button:focus {
+	background-color: #a05492;
+	outline: none;
+}
+
+button:hover, button:active {
+	background-color: #a05492;
 }
 
 h1 {
 	font-size: 7em;
 	font-family: "Lavanderia";
 	font-weight: 900;
-	margin-top: 5%;
+	margin-top: 15%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 h3 {
@@ -36,41 +57,23 @@ h3 {
 	margin-top: 3%;
 }
 
-h5 {
-	font-size: 2em;
-	font-family: "Quaver Serif";
-}
-
-label {
-	font-size: 1em;
-	font-family: "Quaver Serif";
-}
-
 @font-face {
 	font-family: "Lavanderia";
-	src: url('fonts/Lavanderia Regular.otf');
+	src: url('../fonts/Lavanderia Regular.otf');
 }
 
 @font-face {
 	font-family: "Quaver Serif";
-	src: url('fonts/QuaverSerif.otf');
-}
-
-hr {
-	background: #d3f62a; 
-  	height: 2px;
-  	margin: 1.4em;
-  	border: none; 
+	src: url('../fonts/QuaverSerif.otf');
 }
 
 
+/*label {
+	font-size: 1em;
+	font-family: "Quaver Serif";
+}*/
 
-
-
-
-
-
-
-
-
-
+/*h5 {
+	font-size: 2em;
+	font-family: "Quaver Serif";
+}*/
