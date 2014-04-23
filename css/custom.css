@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 body {
 	background: #fff;
 }
@@ -115,7 +126,7 @@ h3 {
 @font-face {
 	font-family: "Quaver Serif";
 	src: url('../fonts/QuaverSerif.otf');
-}
+} 
 
 
 /* ***************************
